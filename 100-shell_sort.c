@@ -1,11 +1,11 @@
 #include "sort.h"
 
 /**
- * swap - the positions of two elements into an array
- * @array: array
- * @item1: array element
- * @item2: array element
- */
+*swap - the positions of two elements into an array
+*@array: array
+*@item1: array element
+*@item2: array element
+*/
 void swap(int *array, int item1, int item2)
 {
 
@@ -33,7 +33,7 @@ void shell_sort(int *array, size_t size)
 	{
 		for (i = gap; i < size; i++)
 			for (index = i; index >= gap &&
-					(array[index] < array[index - gap]); index -= gap)
+			 (array[index] < array[index - gap]); index -= gap)
 				swap(array, index, index - gap);
 		print_array(array, size);
 		gap /= 3;

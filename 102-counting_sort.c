@@ -1,10 +1,10 @@
 #include "sort.h"
 #include <stdio.h>
 /**
- * _calloc - this is a calloc function
- * @nmemb: number of elemets
- * @size: bit size of each element
- * Return: pointer to memory assignement
+ *_calloc - this is a calloc function
+ *@nmemb: number of elemets
+ *@size: bit size of each element
+ *Return: pointer to memory assignement
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
